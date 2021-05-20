@@ -1,26 +1,22 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {"command": {"action": "copy","singleLine": false},"keys": "ctrl+shift+c"},
-        {"command": "paste"  ,"keys": "ctrl+shift+v"},
-        {"command": "unbound","keys": "ctrl+shift+f"},
-        {"command": "unbound","keys": "alt+shift+d"}
-    ],
+
+    "multiLinePasteWarning": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "keybindings": null,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "launchMode": "default",
+    "startOnUserLogin": true,
     "disabledProfileSources": ["Windows.Terminal.Azure"],
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "profiles": 
     {
         "defaults": {},
         "list": 
         [
-            {"acrylicOpacity": 0.84999999999999998,"colorScheme": "Solarized Dark Higher Contrast","commandline": "powershell.exe","cursorShape": "vintage","experimental.retroTerminalEffect": true,"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}","hidden": false,"name": "Windows PowerShell","useAcrylic": false},
-            {"colorScheme": "Monokai Vivid","cursorShape": "vintage","experimental.retroTerminalEffect": false,"guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}","hidden": false,"name": "Ubuntu-CommPrev","source": "Windows.Terminal.Wsl"},
-            {"guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}","hidden": false,"name": "Ubuntu on Windows Community Preview", "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc"}
+            {"name": "Windows PowerShell","guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}","colorScheme": "Solarized Dark Higher Contrast","hidden": false,"commandline": "powershell.exe","acrylicOpacity": 0.84999999999999998,"experimental.retroTerminalEffect": true,"cursorShape": "vintage","useAcrylic": false},
+            {"name": "Ubuntu-CommPrev","guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}","colorScheme": "Monokai Vivid","hidden": false,"cursorShape": "vintage","experimental.retroTerminalEffect": false,"source": "Windows.Terminal.Wsl"},
+            {"name": "Ubuntu on Windows Community Preview","guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}", "hidden": false,"source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc"}
         ]
     },
     "schemes": 
@@ -30,5 +26,12 @@
         {"name": "Solarized Dark Higher Contrast","background": "#001E27","black": "#002831","blue": "#2176C7","brightBlack": "#006488","brightBlue": "#178EC8","brightCyan": "#00B39E","brightGreen": "#51EF84","brightPurple": "#E24D8E","brightRed": "#F5163B","brightWhite": "#FCF4DC","brightYellow": "#B27E28","cursorColor": "#F34B00","cyan": "#259286","foreground": "#9CC2C3","green": "#6CBE6C","purple": "#C61C6F","red": "#D11C24","selectionBackground": "#003748","white": "#EAE3CB","yellow": "#A57706"},
         {"name": "Solarized Light","background": "#FDF6E3","black": "#002B36","blue": "#268BD2","brightBlack": "#073642","brightBlue": "#839496","brightCyan": "#93A1A1","brightGreen": "#586E75","brightPurple": "#6C71C4","brightRed": "#CB4B16","brightWhite": "#FDF6E3","brightYellow": "#657B83","cursorColor": "#002B36","cyan": "#2AA198","foreground": "#657B83","green": "#859900","purple": "#D33682","red": "#DC322F","selectionBackground": "#FFFFFF","white": "#EEE8D5","yellow": "#B58900"}
     ],
-    "startOnUserLogin": true
+    "actions": 
+    [
+        {"command": {"action": "copy","singleLine": false},"keys": "ctrl+shift+c"},
+        {"command": "paste"  ,"keys": "ctrl+shift+v"},
+        {"command": "unbound","keys": "ctrl+shift+f"},
+        {"command": "unbound","keys": "alt+shift+d"}
+    ]
+
 }
