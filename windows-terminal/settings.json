@@ -1,0 +1,34 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {"command": {"action": "copy","singleLine": false},"keys": "ctrl+shift+c"},
+        {"command": "paste"  ,"keys": "ctrl+shift+v"},
+        {"command": "unbound","keys": "ctrl+shift+f"},
+        {"command": "unbound","keys": "alt+shift+d"}
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "keybindings": null,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "launchMode": "default",
+    "disabledProfileSources": ["Windows.Terminal.Azure"],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {"acrylicOpacity": 0.84999999999999998,"colorScheme": "Solarized Dark Higher Contrast","commandline": "powershell.exe","cursorShape": "vintage","experimental.retroTerminalEffect": true,"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}","hidden": false,"name": "Windows PowerShell","useAcrylic": false},
+            {"colorScheme": "Monokai Vivid","cursorShape": "vintage","experimental.retroTerminalEffect": false,"guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}","hidden": false,"name": "Ubuntu-CommPrev","source": "Windows.Terminal.Wsl"},
+            {"guid": "{620e65d5-5d9b-55bf-873b-4a1dfa317ba4}","hidden": false,"name": "Ubuntu on Windows Community Preview", "source": "CanonicalGroupLimited.UbuntuonWindowsCommunityPrev_79rhkp1fndgsc"}
+        ]
+    },
+    "schemes": 
+    [
+        {"name": "Monokai Vivid","background": "#121212","black": "#121212","blue": "#0443FF","brightBlack": "#838383","brightBlue": "#0443FF","brightCyan": "#51CEFF","brightGreen": "#B1E05F","brightPurple": "#F200F6","brightRed": "#F6669D","brightWhite": "#FFFFFF","brightYellow": "#FFF26D","cursorColor": "#FB0007","cyan": "#01B6ED","foreground": "#F9F9F9","green": "#98E123","purple": "#F800F8","red": "#FA2934","selectionBackground": "#FFFFFF","white": "#FFFFFF","yellow": "#FFF30A"},
+        {"name": "Solarized Darcula","background": "#3D3F41","black": "#25292A","blue": "#2075C7","brightBlack": "#25292A","brightBlue": "#2075C7","brightCyan": "#15968D","brightGreen": "#629655","brightPurple": "#797FD4","brightRed": "#F24840","brightWhite": "#D2D8D9","brightYellow": "#B68800","cursorColor": "#708284","cyan": "#15968D","foreground": "#D2D8D9","green": "#629655","purple": "#797FD4","red": "#F24840","selectionBackground": "#214283","white": "#D2D8D9","yellow": "#B68800"},
+        {"name": "Solarized Dark Higher Contrast","background": "#001E27","black": "#002831","blue": "#2176C7","brightBlack": "#006488","brightBlue": "#178EC8","brightCyan": "#00B39E","brightGreen": "#51EF84","brightPurple": "#E24D8E","brightRed": "#F5163B","brightWhite": "#FCF4DC","brightYellow": "#B27E28","cursorColor": "#F34B00","cyan": "#259286","foreground": "#9CC2C3","green": "#6CBE6C","purple": "#C61C6F","red": "#D11C24","selectionBackground": "#003748","white": "#EAE3CB","yellow": "#A57706"},
+        {"name": "Solarized Light","background": "#FDF6E3","black": "#002B36","blue": "#268BD2","brightBlack": "#073642","brightBlue": "#839496","brightCyan": "#93A1A1","brightGreen": "#586E75","brightPurple": "#6C71C4","brightRed": "#CB4B16","brightWhite": "#FDF6E3","brightYellow": "#657B83","cursorColor": "#002B36","cyan": "#2AA198","foreground": "#657B83","green": "#859900","purple": "#D33682","red": "#DC322F","selectionBackground": "#FFFFFF","white": "#EEE8D5","yellow": "#B58900"}
+    ],
+    "startOnUserLogin": true
+}
